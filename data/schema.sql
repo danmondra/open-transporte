@@ -1,3 +1,6 @@
+-- Diagrama entidad-relación:
+-- https://dbdiagram.io/d/68cdc023960f6d821afb6975
+
 CREATE TYPE Occupation as ENUM (
   'ESTUDIANTE',
   'TRABAJADOR'
