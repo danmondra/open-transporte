@@ -76,7 +76,7 @@ ALTER TABLE "route_stop" ADD FOREIGN KEY ("stop_id") REFERENCES "stop";
 CREATE TABLE "trip" (
   "id" INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
   "route" INT NOT NULL,
-  "from" INT NULL,
+  "from" INT NOT NULL,
 
   -- "to" puede ser nulo porque no sabemos con exactitud
   -- donde baja el usuario. Aunque podemos usar un sistema
