@@ -81,7 +81,7 @@ CREATE TABLE "trip" (
   -- "to" puede ser nulo porque no sabemos con exactitud
   -- donde baja el usuario. Aunque podemos usar un sistema
   -- de ubicación para aproximar en qué parada se bajó.
-  "to" INT NOT NULL,
+  "to" INT NULL,
 
   "user_id" INT NOT NULL,
 
