@@ -1,0 +1,4 @@
+com/opentransport/backend/controller/TripController.class
+com/opentransport/backend/model/Trip.class
+com/opentransport/backend/BackendApplication.class
+com/opentransport/backend/repository/TripRepository.class
