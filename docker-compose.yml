@@ -1,0 +1,13 @@
+services:
+  db:
+    image: postgres:16.2
+    restart: no
+    volumes:
+      - /var/lib/postgresql/data
+      - ./data:/data
+    ports:
+      - ${POSTGRES_PORT:?POSTGRES_PORT is required}:${POSTGRES_PORT:?POSTGRES_PORT is required}
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER:?POSTGRES_USER is required}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:?POSTGRES_PASSWORD is required}
+      - POSTGRES_DB=${POSTGRES_DB:?POSTGRES_DB is required}
