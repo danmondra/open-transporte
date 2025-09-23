@@ -464,3 +464,152 @@ INSERT INTO ruta_parada (ruta_id, parada_id, orden) VALUES
 (12, 195, 1900),
 (12, 196, 2000);
 -- Nota: Las líneas 1 a 12 y B corresponden a las líneas del Metro de la Ciudad de México.o
+
+-- MetroBus
+-- Paradas Línea 1
+INSERT INTO parada (nombre, latitud, longitud) VALUES
+('Indios Verdes', 19.496853351807463, -99.11971262485865),
+('Dep. 18 de Marzo', 19.486285379281284, -99.12453169877706),
+('Eúzkaro', 19.482519101724726, -99.12763223387697),
+('Potrero', 19.476638471332368, -99.13246823843683),
+('La Raza', 19.468700050075963, -99.13898666414428),
+('Circuito', 19.462612766654022, -99.14400676821562),
+('El Caminero', 19.27931377110038, -99.16907765168787);
+
+-- Ruta_parada Línea 1
+INSERT INTO ruta_parada (ruta_id, parada_id, orden) VALUES
+(1, 1, 1),
+(1, 2, 2),
+(1, 3, 3),
+(1, 4, 4),
+(1, 5, 5),
+(1, 6, 6),
+(1, 7, 7);
+
+-- Nota: La Línea 1 del Metrobús cuenta con 45 paradas en total
+-- Paradas Línea 2
+INSERT INTO parada (nombre, latitud, longitud) VALUES
+('Parque Lira', 19.407793172832058, -99.1891043635208),
+('Tepalcates', 19.390767861575902, -99.04761259244655),
+('Tacubaya', 19.40199476042971, -99.18700776326118),
+('Antonio Maceo', 19.4048746245951, -99.18590086578114),
+('De la Salle', 19.407589548910526, -99.18350884873917),
+('Patriotismo', 19.40556676448849, -99.17737148120327),
+('Escandón', 19.404409851760686, -99.1738288990292);
+
+-- Ruta_parada Línea 2
+INSERT INTO ruta_parada (ruta_id, parada_id, orden) VALUES
+(2, 1, 1),
+(2, 2, 2),
+(2, 3, 3),
+(2, 4, 4),
+(2, 5, 5),
+(2, 6, 6),
+(2, 7, 7);
+
+-- Nota: La Línea 2 del Metrobús cuenta con 37 paradas en total
+-- Paradas Línea 3
+INSERT INTO parada (nombre, latitud, longitud) VALUES
+('Tenayuca', 19.5286169823938, -99.17011135799122),
+('Pueblo Sta. Cruz Atoyac', 19.371569277530458, -99.16100881216738),
+('S. J. de la Escalera', 19.5227187693797, -99.16555534825103),
+('Progreso Nacional', 19.519688433851808, -99.16377197209003),
+('Tres Anegas', 19.51550543826689, -99.16193283006699),
+('Júpiter', 19.508614111481233, -99.1592357567791),
+('La Patera', 19.503663641847012, -99.15726666835555);
+
+-- Ruta_parada Línea 3
+INSERT INTO ruta_parada (ruta_id, parada_id, orden) VALUES
+(3, 1, 1),
+(3, 2, 2),
+(3, 3, 3),
+(3, 4, 4),
+(3, 5, 5),
+(3, 6, 6),
+(3, 7, 7);
+
+-- Nota: La Línea 3 del Metrobús cuenta con 38 paradas en total
+-- Paradas Línea 4
+INSERT INTO parada (nombre, latitud, longitud) VALUES
+('Plaza de la República', 19.436804, -99.154138),
+('Alameda Oriente', 19.4307516, -99.0532703),
+('Plaza de la República', 19.437128, -99.153982),
+('Amajac', 19.434159, -99.153532),
+('México Tenochtitlan', 19.438641, -99.153457),
+('Amajac', 19.435014, -99.153371),
+('México Tenochtitlan', 19.439025, -99.153269);
+
+-- Ruta_parada Línea 4
+INSERT INTO ruta_parada (ruta_id, parada_id, orden) VALUES
+(4, 1, 1),
+(4, 2, 2),
+(4, 3, 3),
+(4, 4, 4),
+(4, 5, 5),
+(4, 6, 6),
+(4, 7, 7);
+
+-- Nota: La Línea 4 del Metrobús cuenta con 66 paradas en total
+-- Paradas Línea 5
+INSERT INTO parada (nombre, latitud, longitud) VALUES
+('Río de Los Remedios', 19.507111490097344, -99.08593450039032),
+('Preparatoria 1', 19.27337399733259, -99.1207959232013),
+('314 M. New''s Divine', 19.500606215084737, -99.08872828160582),
+('5 de Mayo', 19.497090158579475, -99.09017761443822),
+('Vasco de Quiroga', 19.493296020128245, -99.09178273408934),
+('El Coyol', 19.48753788436704, -99.09417599898956),
+('Preparatoria 3', 19.483362132501473, -99.09600930284314);
+
+-- Ruta_parada Línea 5
+INSERT INTO ruta_parada (ruta_id, parada_id, orden) VALUES
+(5, 1, 1),
+(5, 2, 2),
+(5, 3, 3),
+(5, 4, 4),
+(5, 5, 5),
+(5, 6, 6),
+(5, 7, 7);
+
+-- Nota: La Línea 5 del Metrobús cuenta con 51 paradas en total
+-- Paradas Línea 6
+INSERT INTO parada (nombre, latitud, longitud) VALUES
+('El Rosario', 19.50716631284481, -99.19954567196123),
+('Villa de Aragón', 19.464921728470635, -99.05951753909282),
+('C. de Bachilleres 1', 19.51163711523765, -99.19731457976131),
+('De Las Culturas', 19.510944816535513, -99.19260534067485),
+('F.F.C.C. Nacionales', 19.50487347822404, -99.18859764733908),
+('UAM Azcapotzalco', 19.504008672336422, -99.18398723579402),
+('Tecnoparque', 19.502473142993285, -99.17887631199247);
+
+-- Ruta_parada Línea 6
+INSERT INTO ruta_parada (ruta_id, parada_id, orden) VALUES
+(6, 1, 1),
+(6, 2, 2),
+(6, 3, 3),
+(6, 4, 4),
+(6, 5, 5),
+(6, 6, 6),
+(6, 7, 7);
+
+-- Nota: La Línea 6 del Metrobús cuenta con 37 paradas en total
+-- Paradas Línea 7
+INSERT INTO parada (nombre, latitud, longitud) VALUES
+('Indios Verdes', 19.493039918074693, -99.12101265908572),
+('Alameda Tacubaya', 19.40148534150958, -99.18591745888253),
+('Hospital Infantil La Villa', 19.48727845482721, -99.1137844649315),
+('De Los Misterios', 19.48699198907555, -99.11792283467751),
+('Gustavo A. Madero', 19.483547744379912, -99.11392804511135),
+('Garrido', 19.483248207318105, -99.11934970352202),
+('Av. Talismán', 19.478675139039872, -99.12107849358654);
+
+-- Ruta_parada Línea 7
+INSERT INTO ruta_parada (ruta_id, parada_id, orden) VALUES
+(7, 1, 1),
+(7, 2, 2),
+(7, 3, 3),
+(7, 4, 4),
+(7, 5, 5),
+(7, 6, 6),
+(7, 7, 7);
+
+-- Nota: La Línea 7 del Metrobús cuenta con 48 paradas en total
