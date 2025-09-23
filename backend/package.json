@@ -5,7 +5,12 @@
   "main": "src/app.js",
   "scripts": {
     "build": "rimraf ./dist/ && tsc && tsc-alias -p tsconfig.json",
-    "dev": "docker compose up -d && tsx --watch --env-file=../.env ./src/app.ts"
+    "dev": "docker compose up -d && sleep 2 && npm run seed-db && tsx --watch --env-file=../.env ./src/app.ts",
+    "start": "npm run build && node --env-file=../.env ./dist/src/app.js",
+    "seed-db": "docker exec -i open-transporte-db-1 sh -c '/bin/cat /data/schema.sql /data/constants/sistemas-de-transporte.sql /data/constants/routes.sql /data/constants/paradas.sql /data/constants/users.sql /data/constants/conductor.sql | psql -U admin -d opentransporte'",
+    "seed-db-test": "cat /data/schema.sql | docker exec -i open-transporte-db-1 sh -c 'psql -U admin -d opentransporte'",
+    "remove-docker": "docker stop open-transporte-db-1 && docker rm open-transporte-db-1"
+
   },
   "author": "",
   "license": "ISC",
