@@ -1,0 +1,15 @@
+import { Router } from 'express'
+
+export class AppRoutes {
+  static get routes (): Router {
+    const router = Router()
+
+    // TODO
+    // router.use('/api/viaje', ViajeRoutes.routes)
+    // router.use('/api/viaje-con-conductor', ViajeConConductorRoutes.routes)
+    // router.use('/api/conductor', ConductorRoutes.routes)
+    // router.use('/api/sistema-transporte', SistemaDeTransporteRoutes.routes)
+
+    return router
+  }
+}
