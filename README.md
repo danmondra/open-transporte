@@ -1,18 +1,16 @@
-# Open Transporte
-The unificative solution of the transportation system in Mexico.
+# Open Transportation
+The unified solution for Mexico's transportation system.
+
+## What is the problem?
+- Fragmented payments (cash, bank cards, MI card).  
+- Isolated routes and systems without interoperability.  
+- Lack of transparency in subsidies and social support.  
+- Insecurity due to uncontrolled access.  
+- Lack of public data on transportation.  
 
 ---
 
-## ¿Cuál es el problema?
-- Fragmentación de pagos (efectivo, tarjetas bancarias, tarjeta MI).  
-- Rutas y sistemas aislados sin interoperabilidad.  
-- Falta de transparencia en subsidios y apoyos sociales.  
-- Inseguridad por accesos no controlados.  
-- Escasez de datos públicos sobre transporte.  
-
----
-
-## ¿Qué tecnología usarán?
+## What technology will they use?
 - TypeScript  
 - NodeJS  
 - ExpressJS  
@@ -23,49 +21,36 @@ The unificative solution of the transportation system in Mexico.
 
 ---
 
-## ¿Cuál es la solución?
-Unificar el sistema de pagos del transporte público en México usando **Open Payments**.  
-Integrar datos de uso y rutas.  
-Permitir acceso controlado y trazable.  
+## What is the solution?
+Unify the public transportation payment system in Mexico using **Open Payments**.  
+Integrate usage and route data.  
+Allow controlled and traceable access.  
 
 ---
 
-## ¿Cuáles son los beneficios?
-**Para usuarios**  
-- Un solo medio de pago para todo el transporte.  
-- Costos en tiempo real de un viaje.  
-- Historial accesible y verificable.  
+## What are the benefits?
+**For users**  
+- A single means of payment for all transportation.  
+- Real-time trip costs.  
+- Accessible and verifiable history.  
 
-**Para gobierno**  
-- Subsidios y programas sociales aplicados de forma directa.  
-- Datos de flujo de usuarios en tiempo real.  
-- Ajuste de oferta de transporte según la demanda.  
+**For the government**  
+- Directly applied subsidies and social programs.  
+- Real-time user flow data.  
+- Adjustment of transportation supply according to demand.  
 
 ---
 
-## ¿Cuál es su arquitectura/stack simple?
+## What is its simple architecture/stack?
 - **Frontend**: NextJS  
-- **Backend**: NodeJS con Express  
-- **Base de datos**: PostgreSQL  
-- **Infraestructura**: Docker  
-- **Pagos**: Open Payments (Interledger)  
+- **Backend**: NodeJS with Express  
+- **Database**: PostgreSQL  
+- **Infrastructure**: Docker  
+- **Payments**: Open Payments (Interledger)  
 
 ---
 
-## ¿Qué funciones son indispensables?
-- Pago directo con Open Payments.  
-- Pre-pagos con QR validado en torniquetes.  
-- Interoperabilidad entre metro, metrobús, RTP, taxis, etc.  
-- Pagos en distintas ciudades.  
-- Historial de viajes y pagos.  
-- Panel de estadísticas para gobierno.  
-
----
-
-## ¿Quién será responsable de construir qué parte?
-- **Angel Uriel Ramirez de la Cruz**: Backend y pagos con Open Payments.  
-- **Neydi Michell Marin Torres**: Interfaz de usuario y experiencia (frontend).  
-- **Moises Hernandez Lazaro**: Infraestructura, despliegues con Docker y base de datos.  
-- **Daniel Mondragon Tapia**: Integración de datos, modelos de rutas y panel gubernamental.  
-```
-
+## What features are essential?
+- Direct payment with Open Payments.  
+- Pre-payments with QR validated at turnstiles.  
+- Interoperability
