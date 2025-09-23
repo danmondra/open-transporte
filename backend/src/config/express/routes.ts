@@ -1,3 +1,4 @@
+import { SistemaDeTransporteRoutes } from '@/modules/sistema-de-transporte/routes.js'
 import { Router } from 'express'
 
 export class AppRoutes {
@@ -8,7 +9,7 @@ export class AppRoutes {
     // router.use('/api/viaje', ViajeRoutes.routes)
     // router.use('/api/viaje-con-conductor', ViajeConConductorRoutes.routes)
     // router.use('/api/conductor', ConductorRoutes.routes)
-    // router.use('/api/sistema-transporte', SistemaDeTransporteRoutes.routes)
+    router.use('/api/sistema-transporte', SistemaDeTransporteRoutes.routes)
 
     return router
   }
